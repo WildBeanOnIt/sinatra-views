@@ -13,4 +13,8 @@ class App < Sinatra::Base
 	get '/gelly_text' do
 		erb :gelly_text
 	end
+
+	get '/about' do
+		erb :about
+	end
 end
